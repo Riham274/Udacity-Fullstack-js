@@ -1,5 +1,5 @@
 // Add numbers in an array
-/*
+
 const sum = (arr) => {
   let total = 0;
   arr.forEach((x) => {
@@ -18,6 +18,4 @@ module.exports = {
   sum,
   concat,
 };
-*/
 
-console.log('hello');
