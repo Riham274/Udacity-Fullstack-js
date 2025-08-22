@@ -1,16 +1,27 @@
 {
-  "name": "node",
+  "name": "npm",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Riham274/Udacity-Fullstack-js#readme",
+  "bugs": {
+    "url": "https://github.com/Riham274/Udacity-Fullstack-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riham274/Udacity-Fullstack-js.git"
+  },
+  "license": "ISC",
+  "author": "Riham",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "chalk": "^5.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
