@@ -1,24 +1,18 @@
-const fs = require("fs");
 
-// 1- Synchronous
-console.log("Print First");
+const util = require('./utilities/util1.js');
+const { lgNum, cut3 } = require('./utilities/util2.js');
+const numArr = [3, 4, 5, 6];
+const wordArr =['cat', 'dog', 'rabbit', 'bird'];
 
-// 2- setTimeout
-setTimeout(() => {
-  console.log("Print Second");
-}, 0);
 
-// 3- setImmediate
-setImmediate(() => {
-  console.log("Print Third");
-});
+// Add numbers in an array
+console. log(util.sum(numArr));
 
-// 4- process.nextTick
-process.nextTick(() => {
-  console.log("Print Fourth");
-});
+// Concatenate two arrays
+console. log(util.concat(numArr, wordArr));
 
-// 5- fs callback
-fs.readFile(__filename, () => {
-  console.log("Print Fifth");
-});
+// Find the largest number in an array
+console. log(lgNum(numArr));
+
+// Remove the 3rd item from an array
+console. log(cut3(wordArr));
