@@ -1,6 +1,6 @@
 
-const util = require('./utilities/util1.js');
-const { lgNum, cut3 } = require('./utilities/util2.js');
+const util = require('../utilities/util1.js');
+const { lgNum, cut3 } = require('../utilities/util2.js');
 const numArr = [3, 4, 5, 6];
 const wordArr =['cat', 'dog', 'rabbit', 'bird'];
 
